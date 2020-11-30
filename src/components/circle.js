@@ -11,6 +11,8 @@ class Circle extends Shape {
     super();
     this.color = "red";
   }
-  calculateArea() {}
+  calculateArea() {
+    console.log("area");
+  }
 }
 export default Circle;
