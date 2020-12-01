@@ -6,7 +6,9 @@ class Shape {
   constructor() {
     this.color = "blue";
   }
-  drawShape() {}
+  drawShape() {
+    console.log("shape");
+  }
   calculateArea() {
     console.log("area");
   }
