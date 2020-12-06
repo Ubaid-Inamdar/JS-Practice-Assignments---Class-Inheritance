@@ -15,4 +15,4 @@ class Circle extends Shape {
     console.log("area");
   }
 }
-export default Circle;
+module.exports = Circle;

@@ -13,4 +13,4 @@ class Shape {
     console.log("area");
   }
 }
-export default Shape;
+module.exports = Shape;
